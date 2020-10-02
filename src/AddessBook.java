@@ -25,6 +25,6 @@ public class AddessBook {
         AddessBook addressBook = new AddessBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
-        System.out.print("Testing the branch")
+        System.out.print("Testing the branch");
     }
 }
