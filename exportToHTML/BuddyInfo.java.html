@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>BuddyInfo.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+BuddyInfo.java</font>
+</center></td></tr></table>
+<pre><span class="s0">public class </span><span class="s1">BuddyInfo {</span>
+
+    <span class="s0">public </span><span class="s1">BuddyInfo(String name) {</span>
+        <span class="s0">this</span><span class="s1">.name = name</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private </span><span class="s1">String name</span><span class="s0">;</span>
+
+    <span class="s0">public </span><span class="s1">String getName() {</span>
+        <span class="s0">return </span><span class="s1">name</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private </span><span class="s1">String address</span><span class="s0">;</span>
+    <span class="s0">private int </span><span class="s1">phoneNumber</span><span class="s0">;</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;Hello world!&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">BuddyInfo test = </span><span class="s0">new </span><span class="s1">BuddyInfo (</span><span class="s2">&quot;Homer&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;Hello &quot; </span><span class="s1">+ test.getName())</span><span class="s0">;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
